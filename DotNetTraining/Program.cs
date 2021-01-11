@@ -1,5 +1,6 @@
 ﻿using System;
 using DotNetTraining.SwitchExpressionsDemo;
+using DotNetTraining.UsingDeclarationDemo;
 
 namespace DotNetTraining
 {
@@ -35,6 +36,33 @@ namespace DotNetTraining
 
             //printing result
             Console.WriteLine("Property \n Bank is Open :" + bankOpen);
+
+            //Lets demonstrate Using declaration
+            Console.WriteLine("\n\n Showing using declaration \n\n");
+            try
+            {
+                //creating new resource
+
+                using var resource = new UsingDeclaration();
+                Console.WriteLine("Using resource1...");
+
+                var flag = true;
+                if (flag)
+                {
+                    using var resource2 = new UsingDeclaration();
+                    Console.WriteLine("Using resource2...");
+
+                }
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
+
+            
+           
 
         }
     }
