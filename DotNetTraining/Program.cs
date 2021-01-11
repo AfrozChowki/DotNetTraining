@@ -6,7 +6,10 @@ namespace DotNetTraining
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var nc = new NullCoalescing();
+            nc.NullCoalescingExample();
+            var indexAndRange = new IndicesAndRanges();
+            indexAndRange.IndexAndRange();
         }
     }
 }
