@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading.Tasks;
 using DotNetTraining.SwitchExpressionsDemo;
 using DotNetTraining.UsingDeclarationDemo;
 
@@ -61,9 +62,27 @@ namespace DotNetTraining
                 throw;
             }
 
-            
-           
+            // Asynchronous stream demo
+            GenerateSequenceAsync().GetAwaiter().GetResult();
 
         }
+
+        public static async System.Collections.Generic.IAsyncEnumerable<int> GenerateSequence()
+        {
+            for (int i = 0; i < 20; i++)
+            {
+                await Task.Delay(1000);
+                yield return i;
+            }
+        }
+
+        public static async Task GenerateSequenceAsync()
+        {
+            await foreach (var number in GenerateSequence())
+            {
+                Console.WriteLine(number);
+            }
+        }
+
     }
 }
