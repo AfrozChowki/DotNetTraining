@@ -7,7 +7,7 @@ namespace DotNetTraining
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
             var nc = new NullCoalescing();
             nc.NullCoalescingExample();
@@ -52,8 +52,11 @@ namespace DotNetTraining
                 {
                     using var resource2 = new UsingDeclaration();
                     Console.WriteLine("Using resource2...");
-
                 }
+
+                // Asynchronous disposable demo
+                await using var resource3 = new UsingDeclaration();
+                Console.WriteLine("Using resource3...");
 
             }
             catch (Exception e)
@@ -63,7 +66,7 @@ namespace DotNetTraining
             }
 
             // Asynchronous stream demo
-            GenerateSequenceAsync().GetAwaiter().GetResult();
+            await GenerateSequenceAsync();
 
         }
 
