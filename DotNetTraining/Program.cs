@@ -9,14 +9,18 @@ namespace DotNetTraining
     {
         public static async Task Main(string[] args)
         {
+            Console.WriteLine("\n\t NullCoalescing Demo\n\n");
             var nc = new NullCoalescing();
             nc.NullCoalescingExample();
             var indexAndRange = new IndicesAndRanges();
             indexAndRange.IndexAndRange();
 
+            Console.WriteLine("\n\t NullCoalescing Demo Ends Here\n\n");
+            Console.WriteLine("\n\t Press Any Key....Proceed to Next Demo\n\n");
+            Console.ReadLine();
 
             //Here We will see demonstration of Switch Expressions
-            Console.WriteLine("\n\nDemonstration of Switch Expression Functionality\n\n");
+            Console.WriteLine("\n\n \tDemonstration of Switch Expression Functionality\n\n");
             //creating new Bank() object
             var bank = new Bank();
 
@@ -37,6 +41,7 @@ namespace DotNetTraining
 
             //printing result
             Console.WriteLine("Property \n Bank is Open :" + bankOpen);
+            Console.ReadLine();
 
             //Lets demonstrate Using declaration
             Console.WriteLine("\n\n Showing using declaration \n\n");
@@ -47,8 +52,7 @@ namespace DotNetTraining
                 using var resource = new UsingDeclaration();
                 Console.WriteLine("Using resource1...");
 
-                var flag = true;
-                if (flag)
+                if (true)
                 {
                     using var resource2 = new UsingDeclaration();
                     Console.WriteLine("Using resource2...");
@@ -64,7 +68,11 @@ namespace DotNetTraining
                 Console.WriteLine(e);
                 throw;
             }
+            Console.WriteLine("\n\n \tDemonstration of Switch Expression Functionality\n\n");
+            Console.WriteLine("\n\t Press Any Key....Proceed to Next Demo\n\n");
+            Console.ReadLine();
 
+            Console.WriteLine("\n\n \tDemonstration of Asynchronous Streams\n\n");
             // Asynchronous stream demo
             await GenerateSequenceAsync();
 
