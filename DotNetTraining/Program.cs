@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Threading.Tasks;
-using DotNetTraining.SwitchExpressionsDemo;
 using DotNetTraining.UsingDeclarationDemo;
 
 namespace DotNetTraining
@@ -18,29 +17,6 @@ namespace DotNetTraining
             Console.WriteLine("\n\t NullCoalescing Demo Ends Here\n\n");
             Console.WriteLine("\n\t Press Any Key....Proceed to Next Demo\n\n");
             Console.ReadLine();
-
-            //Here We will see demonstration of Switch Expressions
-            Console.WriteLine("\n\n \tDemonstration of Switch Expression Functionality\n\n");
-            //creating new Bank() object
-            var bank = new Bank();
-
-            //using static method of simple switch expression
-            var bankOpen = AccessBank.AccessBankSimpleSwitch(bank, true);
-
-            //printing result
-            Console.WriteLine("Simple \n Bank is Open :" + bankOpen);
-
-            //using static method of tuple switch expression
-            (bankOpen) = AccessBank.AccessBankUsingTuple(bank, false);
-
-            //printing result
-            Console.WriteLine("Tuple \n Bank is Open :" + bankOpen);
-
-            //using static method of tuple switch expression
-            (bankOpen) = AccessBank.AccessBankUsingProperty(bank, true);
-
-            //printing result
-            Console.WriteLine("Property \n Bank is Open :" + bankOpen);
             Console.ReadLine();
 
             //Lets demonstrate Using declaration
