@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Text;
 
 namespace SwitchExpressionsDemo
@@ -52,6 +53,28 @@ namespace SwitchExpressionsDemo
 
             };
             return interestRate;
+        }
+
+        public static double UsingSwitchGetInterestRate(int customerCount, Type bankType)
+        {
+            switch(bankType)
+            {
+                case Type.Commercial when customerCount <= 1000:
+                {
+                    return 2.2;
+                }
+                case Type.Commercial:
+                {
+                    return 2.0;
+                }
+                case Type.Private:
+                    return 8.0;
+                case Type.Public:
+                    return 6.0;
+                default:
+                    return 4.0;
+
+            }
         }
     }
 
