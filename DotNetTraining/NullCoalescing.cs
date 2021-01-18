@@ -12,7 +12,7 @@ namespace DotNetTraining
         {
             List<int> numbers = null;
             int? a = null;
-
+            // if numbers are null, then add 5 to numbers list
             (numbers ??= new List<int>()).Add(5);
             Console.WriteLine(string.Join(" ", numbers));
 

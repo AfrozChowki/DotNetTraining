@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
+using DotNetTraining.IndicesAndRangesDemo;
 using DotNetTraining.UsingDeclarationDemo;
 
 namespace DotNetTraining
@@ -13,6 +14,8 @@ namespace DotNetTraining
             nc.NullCoalescingExample();
             var indexAndRange = new IndicesAndRanges();
             indexAndRange.IndexAndRange();
+
+            Company company = new Company();
 
             Console.WriteLine("\n\t NullCoalescing Demo Ends Here\n\n");
             Console.WriteLine("\n\t Press Any Key....Proceed to Next Demo\n\n");

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DotNetTraining
+namespace DotNetTraining.IndicesAndRangesDemo
 {
     public class IndicesAndRanges
     {
@@ -15,10 +15,11 @@ namespace DotNetTraining
             //Range
             foreach (var developer in developers[1..4])
             {
+                //it will print 1st, 2nd and 3rd element
                 Console.WriteLine(developer);
             }
             //Index
-            Console.WriteLine($"Last element: {developers[^1]}");
+            Console.WriteLine($"Last element: {developers[^((developers.Length))]}");
             Console.WriteLine($"First element: {developers[0]}");
         }
 
