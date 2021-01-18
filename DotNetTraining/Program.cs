@@ -71,29 +71,6 @@ namespace DotNetTraining
             Console.WriteLine("\n\n \tDemonstration of Switch Expression Functionality\n\n");
             Console.WriteLine("\n\t Press Any Key....Proceed to Next Demo\n\n");
             Console.ReadLine();
-
-            Console.WriteLine("\n\n \tDemonstration of Asynchronous Streams\n\n");
-            // Asynchronous stream demo
-            await GenerateSequenceAsync();
-
         }
-
-        public static async System.Collections.Generic.IAsyncEnumerable<int> GenerateSequence()
-        {
-            for (int i = 0; i < 20; i++)
-            {
-                await Task.Delay(1000);
-                yield return i;
-            }
-        }
-
-        public static async Task GenerateSequenceAsync()
-        {
-            await foreach (var number in GenerateSequence())
-            {
-                Console.WriteLine(number);
-            }
-        }
-
     }
 }

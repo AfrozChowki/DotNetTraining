@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnmanagedConstructedTypes",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticLocalFunction", "StaticLocalFunction\StaticLocalFunction.csproj", "{9221D368-637C-4F8C-9851-187C0D87349E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsynchronousStreamDemo", "AsynchronousStreamDemo\AsynchronousStreamDemo.csproj", "{08A417FA-CE59-4F5D-9799-ACF5E1F113DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{9221D368-637C-4F8C-9851-187C0D87349E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9221D368-637C-4F8C-9851-187C0D87349E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9221D368-637C-4F8C-9851-187C0D87349E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08A417FA-CE59-4F5D-9799-ACF5E1F113DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08A417FA-CE59-4F5D-9799-ACF5E1F113DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08A417FA-CE59-4F5D-9799-ACF5E1F113DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08A417FA-CE59-4F5D-9799-ACF5E1F113DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
