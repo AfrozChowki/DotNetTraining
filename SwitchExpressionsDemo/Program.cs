@@ -18,7 +18,7 @@ namespace SwitchExpressionsDemo
 
             //using normal switch statement to change interest rate
             /*bank2.CustomerCount = 1100;
-            bank2.InterestRate = BankHelper.UsingSwitchGetInterestRate(bank2.CustomerCount, bank2.BankType);
+            bank2.AmountAndInterestRate = BankHelper.UsingSwitchGetInterestRate(bank2.CustomerCount, bank2.BankType);
             Console.WriteLine("\nDetails Of Bank After Changed Interest Rate");
             */
 

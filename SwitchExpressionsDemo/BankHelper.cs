@@ -44,18 +44,18 @@ namespace SwitchExpressionsDemo
         /// <param name="bankType">Takes an argument of type of bank</param>
         /// <returns>Interest rate based on location(IFSC Code) and Type of Bank</returns>
 
-        public static double GetInterestRate(string ifscCode, int customerCount, Type bankType)
+        public static (double,int) GetInterestRateAndSavingsAmount(string ifscCode, int customerCount, Type bankType)
         {
-            var interestRate = (ifscCode, customerCount, bankType) switch
+            return (ifscCode,customerCount, bankType) switch
             {
-                (_, _, Type.Public) => 6.0,
-                (_, 900, Type.Commercial) => 2.0,
-                (_, 1100, Type.Private) => 8.0,
-                ("AXISC02",1100,Type.Commercial) =>2.4,
-                _ => 4.0
+                (_, _, Type.Public) => (6.0,50000),
+                (_, 900, Type.Commercial) => (2.0,600000),
+                (_, 1100, Type.Private) => (8.0,70000),
+                ("AXISC02",1100,Type.Commercial) =>(2.4,700000),
+                _ => (4.0,100000)
 
             };
-            return interestRate;
+            
         }
 
         public static double UsingSwitchGetInterestRate(Bank bank)
@@ -84,7 +84,7 @@ namespace SwitchExpressionsDemo
         {
             bank.CustomerCount = 1100;
             bank.IFSCCode = "AXISC02";
-            bank.InterestRate = BankHelper.GetInterestRate(bank.IFSCCode, bank.CustomerCount, bank.BankType);
+            bank.AmountAndInterestRate = BankHelper.GetInterestRateAndSavingsAmount(bank.IFSCCode, bank.CustomerCount, bank.BankType);
             bank.Name = "AXIS Special Bank";
         }
     }

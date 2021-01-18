@@ -12,7 +12,7 @@
             public string IFSCCode { get; set; }
 
             public int CustomerCount;
-            public double InterestRate;
+            public (double,int) AmountAndInterestRate;
             /// <summary>
             /// Constructor Helps To Assign Necessary Values
             /// </summary>
@@ -23,7 +23,7 @@
                 Name = "AXIS Bank";
                 IFSCCode = BankHelper.GenerateIFSCCode(bankType);
                 CustomerCount = BankHelper.GetCustomerCount(this);
-                InterestRate = BankHelper.GetInterestRate(IFSCCode, CustomerCount, BankType);
+                AmountAndInterestRate = BankHelper.GetInterestRateAndSavingsAmount(IFSCCode, CustomerCount, BankType);
             }
 
             /// <summary>
@@ -36,7 +36,8 @@
                        "\nBranch : " + BankType +
                        "\nIFSC Code : " + IFSCCode +
                        "\nCustomer Count : " + CustomerCount +
-                       "\nInterest Rate On Savings : " + InterestRate;
+                       "\nInterest Rate On Savings : " + AmountAndInterestRate.Item1 +
+                       "\nMax Amount Allowed in Account : " +AmountAndInterestRate.Item2;
             }
         }
         public enum Type
