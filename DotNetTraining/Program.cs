@@ -35,11 +35,12 @@ namespace DotNetTraining
                 {
                     using var resource2 = new UsingDeclaration();
                     Console.WriteLine("Using resource2...");
+
+                    // Asynchronous disposable demo
+                    await using var resource3 = new UsingDeclaration();
+                    Console.WriteLine("Using resource3...");
                 }
 
-                // Asynchronous disposable demo
-                await using var resource3 = new UsingDeclaration();
-                Console.WriteLine("Using resource3...");
 
             }
             catch (Exception e)

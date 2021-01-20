@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace AsynchronousStreamDemo
@@ -7,15 +8,15 @@ namespace AsynchronousStreamDemo
     {
         static async Task Main(string[] args)
         {
-            Console.WriteLine("Asyncronous stream demo!");
-            await ShowPersonDataAsync();
+            //Console.WriteLine("Asyncronous stream demo!");
+            //await ShowPersonDataAsync();
 
             Console.WriteLine("Normal stream demo!");
-            await ShowPersonData();
+            ShowPersonData();
         }
 
         #region Asyncronous stream demo methods
-        public static async System.Collections.Generic.IAsyncEnumerable<Person> GetPersonDataAsync()
+        public static async IAsyncEnumerable<Person> GetPersonDataAsync()
         {
             PersonRepository personRepository = new PersonRepository();
             var persons = personRepository.GetPersonData();
@@ -37,14 +38,28 @@ namespace AsynchronousStreamDemo
         #endregion
 
         #region Normal stream demo methods
-        public static async Task<System.Collections.Generic.IEnumerable<Person>> GetPersonData()
+        public static async Task<IEnumerable<Person>> GetPersonData()
         {
             PersonRepository personRepository = new PersonRepository();
             var persons = personRepository.GetPersonData();
-            return persons;
+
+            List<Task<Person>> listOfTasks = new List<Task<Person>>();
+
+            foreach (var person in persons)
+            {
+                listOfTasks.Add(GetPersonTaskResult(person));
+            }
+
+            return await Task.WhenAll<Person>(listOfTasks);
         }
 
-        public static async Task ShowPersonData()
+        public static Task<Person> GetPersonTaskResult(Person person)
+        {
+            Task.Delay(1000);
+            return Task.FromResult(person);
+        }
+
+        public static async void ShowPersonData()
         {
             var personData = await GetPersonData();
             foreach (var person in personData)
