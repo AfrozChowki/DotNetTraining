@@ -1,0 +1,13 @@
+C:\Users\Venkatsai_Jeevanagar\source\repos\DotNetTraining2\ConstructorInjection\bin\Debug\netcoreapp3.1\ConstructorInjection.exe
+C:\Users\Venkatsai_Jeevanagar\source\repos\DotNetTraining2\ConstructorInjection\bin\Debug\netcoreapp3.1\ConstructorInjection.deps.json
+C:\Users\Venkatsai_Jeevanagar\source\repos\DotNetTraining2\ConstructorInjection\bin\Debug\netcoreapp3.1\ConstructorInjection.runtimeconfig.json
+C:\Users\Venkatsai_Jeevanagar\source\repos\DotNetTraining2\ConstructorInjection\bin\Debug\netcoreapp3.1\ConstructorInjection.runtimeconfig.dev.json
+C:\Users\Venkatsai_Jeevanagar\source\repos\DotNetTraining2\ConstructorInjection\bin\Debug\netcoreapp3.1\ConstructorInjection.dll
+C:\Users\Venkatsai_Jeevanagar\source\repos\DotNetTraining2\ConstructorInjection\bin\Debug\netcoreapp3.1\ConstructorInjection.pdb
+C:\Users\Venkatsai_Jeevanagar\source\repos\DotNetTraining2\ConstructorInjection\obj\Debug\netcoreapp3.1\ConstructorInjection.csprojAssemblyReference.cache
+C:\Users\Venkatsai_Jeevanagar\source\repos\DotNetTraining2\ConstructorInjection\obj\Debug\netcoreapp3.1\ConstructorInjection.AssemblyInfoInputs.cache
+C:\Users\Venkatsai_Jeevanagar\source\repos\DotNetTraining2\ConstructorInjection\obj\Debug\netcoreapp3.1\ConstructorInjection.AssemblyInfo.cs
+C:\Users\Venkatsai_Jeevanagar\source\repos\DotNetTraining2\ConstructorInjection\obj\Debug\netcoreapp3.1\ConstructorInjection.csproj.CoreCompileInputs.cache
+C:\Users\Venkatsai_Jeevanagar\source\repos\DotNetTraining2\ConstructorInjection\obj\Debug\netcoreapp3.1\ConstructorInjection.dll
+C:\Users\Venkatsai_Jeevanagar\source\repos\DotNetTraining2\ConstructorInjection\obj\Debug\netcoreapp3.1\ConstructorInjection.pdb
+C:\Users\Venkatsai_Jeevanagar\source\repos\DotNetTraining2\ConstructorInjection\obj\Debug\netcoreapp3.1\ConstructorInjection.genruntimeconfig.cache
