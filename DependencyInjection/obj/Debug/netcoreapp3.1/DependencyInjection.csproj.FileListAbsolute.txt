@@ -1,0 +1,13 @@
+C:\Users\Venkatsai_Jeevanagar\source\repos\DotNetTraining2\DependencyInjection\bin\Debug\netcoreapp3.1\DependencyInjection.exe
+C:\Users\Venkatsai_Jeevanagar\source\repos\DotNetTraining2\DependencyInjection\bin\Debug\netcoreapp3.1\DependencyInjection.deps.json
+C:\Users\Venkatsai_Jeevanagar\source\repos\DotNetTraining2\DependencyInjection\bin\Debug\netcoreapp3.1\DependencyInjection.runtimeconfig.json
+C:\Users\Venkatsai_Jeevanagar\source\repos\DotNetTraining2\DependencyInjection\bin\Debug\netcoreapp3.1\DependencyInjection.runtimeconfig.dev.json
+C:\Users\Venkatsai_Jeevanagar\source\repos\DotNetTraining2\DependencyInjection\bin\Debug\netcoreapp3.1\DependencyInjection.dll
+C:\Users\Venkatsai_Jeevanagar\source\repos\DotNetTraining2\DependencyInjection\bin\Debug\netcoreapp3.1\DependencyInjection.pdb
+C:\Users\Venkatsai_Jeevanagar\source\repos\DotNetTraining2\DependencyInjection\obj\Debug\netcoreapp3.1\DependencyInjection.csprojAssemblyReference.cache
+C:\Users\Venkatsai_Jeevanagar\source\repos\DotNetTraining2\DependencyInjection\obj\Debug\netcoreapp3.1\DependencyInjection.AssemblyInfoInputs.cache
+C:\Users\Venkatsai_Jeevanagar\source\repos\DotNetTraining2\DependencyInjection\obj\Debug\netcoreapp3.1\DependencyInjection.AssemblyInfo.cs
+C:\Users\Venkatsai_Jeevanagar\source\repos\DotNetTraining2\DependencyInjection\obj\Debug\netcoreapp3.1\DependencyInjection.csproj.CoreCompileInputs.cache
+C:\Users\Venkatsai_Jeevanagar\source\repos\DotNetTraining2\DependencyInjection\obj\Debug\netcoreapp3.1\DependencyInjection.dll
+C:\Users\Venkatsai_Jeevanagar\source\repos\DotNetTraining2\DependencyInjection\obj\Debug\netcoreapp3.1\DependencyInjection.pdb
+C:\Users\Venkatsai_Jeevanagar\source\repos\DotNetTraining2\DependencyInjection\obj\Debug\netcoreapp3.1\DependencyInjection.genruntimeconfig.cache

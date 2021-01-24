@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/DotNetTraining
+/NullableReferenceTypeDemo/obj
+/ReadOnlyDemo
+/UnmanagedConstructedTypes/obj
+/TestAPP
+/StaticLocalFunction/obj
+/NullForgivingOperatorDemo/obj
+/SwitchExpressionsDemo
+/.vs
