@@ -3,3 +3,15 @@
 ################################################################################
 
 /DefaultInterfaceMethods/obj
+/.vs
+/DICoreWebAppDemo
+/DotNetTraining/obj
+/InterpolatedVerbatimDemo/InterpolatedVerbatimDemo/obj
+/NullableReferenceTypeDemo/obj
+/StaticLocalFunction/obj
+/ReadOnlyDemo
+/SwitchExpressionsDemo/obj
+/NullForgivingOperatorDemo/obj
+/UnmanagedConstructedTypes/obj
+/ConstructorInjection
+/AsynchronousStreamDemo/obj
