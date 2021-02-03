@@ -1,0 +1,11 @@
+﻿@model Employee
+@inject IEmployeeRepository empRepository
+@{
+    ViewData["Title"] = "Display Employee Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome To Epam</h1>
+    <p><h2>@empRepository.GetAllEmployees().Last().Name</h2></p>
+    <p>This is our recent recruit</p>
+</div>

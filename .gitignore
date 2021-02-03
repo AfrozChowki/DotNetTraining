@@ -1,0 +1,18 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/ConstructorInjection
+/DefaultInterfaceMethods/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs
+/AsynchronousStreamDemo/obj
+/.vs
+/DefaultInterfaceMethods/obj
+/DisoposableDemo
+/DotNetTraining/obj
+/InterpolatedVerbatimDemo/InterpolatedVerbatimDemo/obj
+/NullableReferenceTypeDemo/obj
+/NullForgivingOperatorDemo/obj
+/StaticLocalFunction/obj
+/SwitchExpressionsDemo/obj
+/UnmanagedConstructedTypes/obj
+/ReadOnlyDemo
