@@ -23,8 +23,8 @@ namespace InterpolatedVerbatimDemo
 
             string player = "\narine";
             Console.WriteLine(player);
-            //string pathActual = "c:\program files\Microsoft.Net";
-            //Console.WriteLine(pathActual);
+            string pathActual = "c:\program files\Microsoft.Net";
+            Console.WriteLine(pathActual);
             string path = "c:\\program files\\Microsoft.Net";
             Console.WriteLine(path);
             //verbatim identifier for escape sequence
@@ -41,19 +41,16 @@ namespace InterpolatedVerbatimDemo
             // Here, @ token appears before $ token 
             // But the compiler will give an error 
             Console.WriteLine("Finding the area of a triangle:");
-            Console.WriteLine("using escape sequence");
-            Console.WriteLine($"Height = \"{Height}\" and Base = \"{Base}\"");
-            // Here, $ token appears before @ token 
-            Console.WriteLine("using interpolated verbatim string in c# 7.2 format");
-            Console.WriteLine($@"Height = ""{Height}"" and Base = ""{Base}""");
-            Console.WriteLine("using interpolated verbatim string in any order");
+            Console.WriteLine(@$"Height = ""{Height}"" and Base = ""{Base}""");
             Console.WriteLine(@$"Area = ""{area}""");
 
           
 
-            
+            // Here, $ token appears before @ token 
+            Console.WriteLine($@"Height = ""{Height}"" and Base = ""{Base}""");
 
-            
+            // Here, @ token appears before $ token 
+            Console.WriteLine(@$"Area = ""{area}""");
 
             #endregion
         }

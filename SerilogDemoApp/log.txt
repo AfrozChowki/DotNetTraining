@@ -1,0 +1,75 @@
+02/10/2021 17:46:26 our application is starting up
+02/10/2021 17:46:27 you requested the index page 
+02/10/2021 17:46:27 the value of i is 0 
+02/10/2021 17:46:27 the value of i is 1 
+02/10/2021 17:46:27 the value of i is 2 
+02/10/2021 17:46:27 the value of i is 3 
+02/10/2021 17:46:27 the value of i is 4 
+02/10/2021 17:46:27 the value of i is 5 
+02/10/2021 17:46:27 the value of i is 6 
+02/10/2021 17:46:27 the value of i is 7 
+02/10/2021 17:46:27 the value of i is 8 
+02/10/2021 17:46:27 the value of i is 9 
+02/10/2021 17:46:27 the value of i is 10 
+02/10/2021 17:46:27 the value of i is 11 
+02/10/2021 17:46:27 the value of i is 12 
+02/10/2021 17:46:27 the value of i is 13 
+02/10/2021 17:46:27 the value of i is 14 
+02/10/2021 17:46:27 the value of i is 15 
+02/10/2021 17:46:27 the value of i is 16 
+02/10/2021 17:46:27 the value of i is 17 
+02/10/2021 17:46:27 the value of i is 18 
+02/10/2021 17:46:27 the value of i is 19 
+02/10/2021 17:46:27 the value of i is 20 
+02/10/2021 17:46:27 the value of i is 21 
+02/10/2021 17:46:27 the value of i is 22 
+02/10/2021 17:46:27 the value of i is 23 
+02/10/2021 17:46:27 the value of i is 24 
+02/10/2021 17:46:27 the value of i is 25 
+02/10/2021 17:46:27 the value of i is 26 
+02/10/2021 17:46:27 the value of i is 27 
+02/10/2021 17:46:27 the value of i is 28 
+02/10/2021 17:46:27 the value of i is 29 
+02/10/2021 17:46:27 the value of i is 30 
+02/10/2021 17:46:27 the value of i is 31 
+02/10/2021 17:46:27 the value of i is 32 
+02/10/2021 17:46:27 the value of i is 33 
+02/10/2021 17:46:27 the value of i is 34 
+02/10/2021 17:46:27 the value of i is 35 
+02/10/2021 17:46:27 the value of i is 36 
+02/10/2021 17:46:27 the value of i is 37 
+02/10/2021 17:46:27 the value of i is 38 
+02/10/2021 17:46:27 the value of i is 39 
+02/10/2021 17:46:27 the value of i is 40 
+02/10/2021 17:46:27 the value of i is 41 
+02/10/2021 17:46:27 the value of i is 42 
+02/10/2021 17:46:27 the value of i is 43 
+02/10/2021 17:46:27 the value of i is 44 
+02/10/2021 17:46:27 the value of i is 45 
+02/10/2021 17:46:27 the value of i is 46 
+02/10/2021 17:46:27 the value of i is 47 
+02/10/2021 17:46:27 the value of i is 48 
+02/10/2021 17:46:27 the value of i is 49 
+02/10/2021 17:46:27 the value of i is 50 
+02/10/2021 17:46:27 the value of i is 51 
+02/10/2021 17:46:27 the value of i is 52 
+02/10/2021 17:46:27 the value of i is 53 
+02/10/2021 17:46:27 the value of i is 54 
+02/10/2021 17:46:27 the value of i is 55 
+02/10/2021 17:46:27 we caught this exception in index get call
+System.Exception: this is our demo exception
+   at SerilogDemo.Pages.IndexModel.OnGet() in C:\Users\Chaitanya_Pallamala\source\repos\SerilogDemoApp\SerilogDemo\Pages\Index.cshtml.cs:line 33
+02/10/2021 17:46:27 HTTP "GET" "/" responded 200 in 294.3366 ms
+02/10/2021 17:47:59 HTTP "GET" "/Privacy" responded 200 in 14.1504 ms
+02/10/2021 18:15:04 our application is starting up
+02/10/2021 18:15:08 you requested the index page 
+02/10/2021 18:15:08 the value of i is 0 
+02/10/2021 18:15:08 the value of i is 1 
+02/10/2021 18:15:08 the value of i is 2 
+02/10/2021 18:15:08 the value of i is 3 
+02/10/2021 18:15:08 the value of i is 4 
+02/10/2021 18:15:08 the value of i is 5 
+02/10/2021 18:15:08 we caught this exception in index get call
+System.Exception: this is our demo exception
+   at SerilogDemo.Pages.IndexModel.OnGet() in C:\Users\Chaitanya_Pallamala\source\repos\SerilogDemoApp\SerilogDemo\Pages\Index.cshtml.cs:line 33
+02/10/2021 18:15:08 HTTP "GET" "/" responded 200 in 960.4102 ms
