@@ -1,3 +1,26 @@
 .vs/
 AspNetCoreGitHubAuth/bin/
 AspNetCoreGitHubAuth/obj/
+RazorPagesMovie/bin/
+RazorPagesMovie/obj/
+FrameworkPlusCoreDemo/tests/Car.Tests/bin/
+RazorPagesMovie/.vs/
+FrameworkPlusCoreDemo/tests/Car.Tests/obj/
+FrameworkPlusCoreDemo/src/Car/obj/
+FrameworkPlusCoreDemo/src/Car/bin/
+/UnmanagedConstructedTypes/obj
+AsynchronousStreamDemo/obj/
+DefaultInterfaceMethods/obj/
+DotNetTraining/obj/
+InterpolatedVerbatimDemo/InterpolatedVerbatimDemo/obj/
+InterpolatedVerbatimDemo/obj/
+NullableReferenceTypeDemo/obj/
+NullForgivingOperatorDemo/obj/
+SwitchExpressionsDemo/obj/
+StaticLocalFunction/obj/
+SerilogDemoApp/SerilogDemo/obj/
+ReadOnlyDemo/ReadOnlyConsole/obj/
+ReadOnlyDemo/obj/
+>>>>>>> Stashed changes
+TestApplication/TestApplication/
+TestApplication/

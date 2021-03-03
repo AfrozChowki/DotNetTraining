@@ -5,6 +5,7 @@ using Octokit.Internal;
 using System.Collections.Generic;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using AspNetCoreGitHubAuth.Utility;
 
 namespace AspNetCoreGitHubAuth.Pages
 {
@@ -34,6 +35,9 @@ namespace AspNetCoreGitHubAuth.Pages
                 var github = new GitHubClient(new ProductHeaderValue("AspNetCoreGitHubAuth"), new InMemoryCredentialStore(new Credentials(accessToken)));
                 Repositories = await github.Repository.GetAllForCurrent();
 
+                // generating JWT token
+                TempData["token"] = TokenManager.GenerateToken(GitHubName, accessToken);
+                TempData["accessToken"] = accessToken;
             }
         }
     }
