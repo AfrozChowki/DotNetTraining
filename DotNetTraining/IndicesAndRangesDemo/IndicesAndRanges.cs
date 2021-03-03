@@ -19,7 +19,7 @@ namespace DotNetTraining.IndicesAndRangesDemo
                 Console.WriteLine(developer);
             }
             //Index
-            Console.WriteLine($"Last element: {developers[^((developers.Length))]}");
+            Console.WriteLine($"Last element: {developers[^1]}");
             Console.WriteLine($"First element: {developers[0]}");
         }
 
