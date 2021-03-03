@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwitchExpressionsDemo", "Sw
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsynchronousStreamDemo", "AsynchronousStreamDemo\AsynchronousStreamDemo.csproj", "{08A417FA-CE59-4F5D-9799-ACF5E1F113DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullForgivingOperatorDemo", "NullForgivingOperatorDemo\NullForgivingOperatorDemo.csproj", "{739AEF2F-EC7C-4920-B6AB-D23DACF24FDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullForgivingOperatorDemo", "NullForgivingOperatorDemo\NullForgivingOperatorDemo.csproj", "{739AEF2F-EC7C-4920-B6AB-D23DACF24FDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{29E7DBED-6159-4B4C-ACC0-81AA77FAC827}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{739AEF2F-EC7C-4920-B6AB-D23DACF24FDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{739AEF2F-EC7C-4920-B6AB-D23DACF24FDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{739AEF2F-EC7C-4920-B6AB-D23DACF24FDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29E7DBED-6159-4B4C-ACC0-81AA77FAC827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29E7DBED-6159-4B4C-ACC0-81AA77FAC827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29E7DBED-6159-4B4C-ACC0-81AA77FAC827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29E7DBED-6159-4B4C-ACC0-81AA77FAC827}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
