@@ -1,0 +1,12 @@
+02/18/2021 18:48:26 our application is starting up
+02/18/2021 18:48:28 you requested the index page 
+02/18/2021 18:48:28 the value of i is 0 
+02/18/2021 18:48:28 the value of i is 1 
+02/18/2021 18:48:28 the value of i is 2 
+02/18/2021 18:48:28 the value of i is 3 
+02/18/2021 18:48:28 the value of i is 4 
+02/18/2021 18:48:28 the value of i is 5 
+02/18/2021 18:48:28 we caught this exception in index get call
+System.Exception: this is our demo exception
+   at SerilogDemo.Pages.IndexModel.OnGet() in C:\Users\Chaitanya_Pallamala\Desktop\MENTOR TASK\SerilogDemoApp\SerilogDemo\Pages\Index.cshtml.cs:line 33
+02/18/2021 18:48:28 HTTP "GET" "/" responded 200 in 269.0947 ms
